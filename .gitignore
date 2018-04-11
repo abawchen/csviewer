@@ -1,0 +1,5 @@
+*.pyc
+*.swo
+*.swp
+csviewer/__pycache__
+csviewer/cli/__pycache__
