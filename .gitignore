@@ -1,5 +1,6 @@
 *.pyc
 *.swo
 *.swp
-csviewer/__pycache__
-csviewer/cli/__pycache__
+jsviewer.egg-info/
+jsviewer/__pycache__
+jsviewer/cli/__pycache__
