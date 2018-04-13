@@ -1,5 +1,16 @@
 #!/usr/bin/env python
 
+import click
+
+@click.command()
+def less():
+    click.echo_via_pager('\n'.join(('Line %d' % idx) * 20
+                                   for idx in range(200)))
+
+if __name__ == '__main__':
+    less()
+
+'''
 import curses
 
 from curses import wrapper
@@ -24,3 +35,5 @@ def main(stdscr):
             stdscr.addstr("This program doesn't know that key.....")
 
 wrapper(main)
+'''
+

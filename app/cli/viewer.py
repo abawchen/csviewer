@@ -28,7 +28,7 @@ class Viewer(object):
     def _create_cli(self):
         history = InMemoryHistory()
         layout = create_default_layout(
-            message=u'csviwer> ',
+            message=u'jsviewer> ',
             reserve_space_for_menu=8
         )
         cli_buffer = Buffer(
